@@ -1,40 +1,40 @@
 <script>
     const team = [
         {
-            name: "Dr. Elara Voss",
-            role: "Founder & Creative Director",
-            bio: "Visionary astrophysicist turned game designer, Elara brings scientific rigor to our cosmic adventures.",
-            image: "/team/elara-voss.jpg"
+            name: "Tyler",
+            role: "CEO & Creative Director",
+            bio: "TBD",
+            image: ""
         },
         {
-            name: "Kieran Rho",
-            role: "Lead Developer",
-            bio: "Quantum computing expert who builds the impossible. Architect of the ASTERIA engine.",
-            image: "/team/kieran-rho.jpg"
+            name: "Sam Thibault",
+            role: "COO & Technical Ops",
+            bio: "TBD",
+            image: ""
         },
         {
-            name: "Nyx Orion",
+            name: "Sagittarius A",
             role: "Art Director",
             bio: "Concept artist who paints galaxies before breakfast. Creates our signature neo-cosmic aesthetic.",
             image: "/team/nyx-orion.jpg"
         },
         {
-            name: "Dr. Soren Maris",
-            role: "Narrative Designer",
-            bio: "Exoplanet researcher who writes stories that span solar systems. Our resident worldbuilder.",
-            image: "/team/soren-maris.jpg"
+            name: "Tago",
+            role: "Audio Director",
+            bio: "TBD",
+            image: ""
         },
         {
-            name: "Juno Cade",
+            name: "TBD",
             role: "Sound Designer",
-            bio: "Crafts audio landscapes that make vacuum feel alive. Records actual space probe telemetry for samples.",
-            image: "/team/juno-cade.jpg"
+            bio: "TBD",
+            image: ""
         },
         {
-            name: "Vega Quinn",
-            role: "Community Director",
-            bio: "Keeps our connection to Earth while we're lost in the stars. Builds bridges between players and devs.",
-            image: "/team/vega-quinn.jpg"
+            name: "Ijsz23",
+            role: "General Artist",
+            bio: "TBD",
+            image: ""
         }
     ];
 </script>
@@ -59,8 +59,8 @@
         <div class="section-content">
             <h2>OUR MISSION</h2>
             <div class="divider"></div>
-            <p>Founded in 2025, Astera Interactive exists to push the boundaries of space exploration gaming.  </p>
-            <p>TBD</p>
+            <p>Founded in April 2025, Astera Interactive is a small indie game studio trying to make awesome space games. Our staff comprises people from the Space Community, and our goal is to combine our passions for space, game development, and humanity's future into one cohesive package!</p>
+            <p>- Staff</p>
         </div>
     </section>
 

@@ -36,7 +36,7 @@
       
 
       <div class="footer-bottom">
-        <p class="copyright">© 2157-{new Date().getFullYear()} Astera Interactive. All rights reserved.</p>
+        <p class="copyright">© {new Date().getFullYear()} Astera Interactive LLC. All rights reserved.</p>
         <div class="back-to-top" on:click={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <span>RETURN TO ORBIT</span>
         </div>

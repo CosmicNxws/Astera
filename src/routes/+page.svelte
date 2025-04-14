@@ -62,12 +62,20 @@
         </div>
     </section>
 
+
+    <section id="games" class="games-section">
+        <div class="section-header">
+            <h3>POTENTAL GAMES - WIP</h3>
+            <div class="divider"></div>
+        </div>
+    </section>
+
     <section class="about-section">
         <div class="about-content">
             <div class="about-text">
                 <h3>ABOUT ASTERA INTERACTIVE</h3>
                 <div class="divider"></div>
-                <p>Founded in 2025, Astera Interactive - ADD Later</p>
+                <p>Founded in April 2025, Astera Interactive is a small indie game studio trying to make awesome space games. Our staff comprises people from the Space Community, and our goal is to combine our passions for space, game development, and humanity's future into one cohesive package!</p>
                 <p>///</p>
                 <a href="/about" class="cta-secondary">OUR STORY</a>
             </div>
