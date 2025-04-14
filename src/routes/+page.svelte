@@ -42,7 +42,7 @@
 
     <section id="games" class="games-section">
         <div class="section-header">
-            <h3>GAMES IN DEVELOPMENT</h3>
+            <h3>GAMES IN EARLY DEVELOPMENT</h3>
             <div class="divider"></div>
         </div>
 

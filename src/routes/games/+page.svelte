@@ -4,7 +4,7 @@
             title: "Outpost Erebus",
             description: "Manage a remote mining station in the Kuiper Belt. Collect resources, expand your outpost, and survive while growing your profits.",
             release: "Early Development",
-            image: "/games/nebula-command.jpg"
+            image: "https://cdn.discordapp.com/attachments/1360640014769197056/1361427300947591381/image.png?ex=67feb77a&is=67fd65fa&hm=6c55989e78b386f596ad55db3f4852209fcab6f6c2685f1f99228e1aa0f5f083&"
         },
         {
             title: "Astera Blast",

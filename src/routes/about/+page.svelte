@@ -73,7 +73,22 @@
         <div class="team-grid">
             {#each team as member}
                 <div class="team-card">
-                    <div class="member-image" style={`background-image: url('${member.image}')`}></div>
+                    <div class="space-box">
+                        <div class="space-background">
+                            {#each Array(50) as _, i}
+                                <div class="star" style={`top: ${Math.random() * 100}%; left: ${Math.random() * 100}%; width: ${Math.random() * 3 + 1}px; height: ${Math.random() * 3 + 1}px; animation-delay: ${Math.random() * 5}s;`}></div>
+                            {/each}
+                            {#each Array(20) as _, i}
+                                <div class="twinkling-star" style={`top: ${Math.random() * 100}%; left: ${Math.random() * 100}%; animation-delay: ${Math.random() * 5}s; animation-duration: ${Math.random() * 3 + 2}s;`}></div>
+                            {/each}
+                            <div class="deep-space-dots"></div>
+                        </div>
+                        <div class="profile-circle" style={`background-image: url('${member.image}')`}>
+                            {#if !member.image}
+                                <span class="initials">{member.name.split(' ').map(n => n[0]).join('')}</span>
+                            {/if}
+                        </div>
+                    </div>
                     <div class="member-info">
                         <h3>{member.name}</h3>
                         <p class="role">{member.role}</p>
@@ -239,10 +254,93 @@
         box-shadow: 0 10px 30px rgba(65, 156, 255, 0.2);
     }
 
-    .member-image {
+    /* Space Box with Animated Stars */
+    .space-box {
         height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .space-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(ellipse at center, #0a0e17 0%, #000000 100%);
+    }
+
+    /* Star animations */
+    @keyframes twinkle {
+        0% { opacity: 0.2; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.1); }
+        100% { opacity: 0.2; transform: scale(0.8); }
+    }
+
+    @keyframes float {
+        0% { transform: translateY(0) translateX(0); }
+        50% { transform: translateY(-5px) translateX(5px); }
+        100% { transform: translateY(0) translateX(0); }
+    }
+
+    .star {
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        animation: float 10s infinite ease-in-out;
+    }
+
+    .twinkling-star {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background-color: white;
+        border-radius: 50%;
+        animation: twinkle 5s infinite, float 15s infinite ease-in-out;
+        box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.8);
+    }
+
+    .deep-space-dots {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: 
+            radial-gradient(white 1px, transparent 1px),
+            radial-gradient(white 1px, transparent 1px);
+        background-size: 30px 30px;
+        background-position: 0 0, 15px 15px;
+        opacity: 0.1;
+    }
+
+    /* Profile Circle */
+    .profile-circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #1a1f3a;
         background-size: cover;
         background-position: center;
+        border: 3px solid #41a0ff;
+        box-shadow: 
+            0 0 20px rgba(65, 156, 255, 0.5),
+            0 0 40px rgba(65, 156, 255, 0.3) inset;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .initials {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2.5rem;
+        color: #41a0ff;
+        font-weight: bold;
     }
 
     .member-info {
@@ -263,7 +361,7 @@
         color: #41a0ff;
         font-weight: 700;
         margin-bottom: 1rem;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     .bio {
@@ -367,6 +465,15 @@
         .cta-buttons {
             flex-direction: column;
             gap: 1rem;
+        }
+
+        .profile-circle {
+            width: 120px;
+            height: 120px;
+        }
+
+        .initials {
+            font-size: 2rem;
         }
     }
 </style>
