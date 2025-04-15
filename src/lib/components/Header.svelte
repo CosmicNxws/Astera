@@ -1,8 +1,8 @@
 <header class="space-header">
     <div class="header-content">
         <div class="logo-container">
-            
-            <h1>ASTERA INTERACTIVE</h1>
+            <img src="/logo/AsteraInteractiveLogo.jpg" alt="Astera Interactive Logo" class="logo">
+            <h1 class="company-name">ASTERA INTERACTIVE</h1>
         </div>
         <nav class="nav-menu">
             <a href="/" class="nav-link active">HOME</a>
@@ -51,7 +51,7 @@
         width: auto;
     }
 
-    h1 {
+    .company-name {
         color: #fff;
         font-family: 'Orbitron', sans-serif;
         font-size: 1.5rem;
@@ -114,6 +114,14 @@
 
         .hamburger {
             display: flex;
+        }
+
+        .company-name {
+            display: none;
+        }
+        
+        .logo-container {
+            gap: 0;
         }
     }
 </style>

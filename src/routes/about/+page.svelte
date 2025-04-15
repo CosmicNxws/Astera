@@ -4,22 +4,22 @@
             name: "Tyler",
             role: "CEO & Creative Director",
             bio: "TBD",
-            image: ""
+            image: "https://pbs.twimg.com/profile_images/1807164807248056320/TfyJ1gvR_400x400.jpg"
         },
         {
             name: "Sam Thibault",
             role: "COO & Technical Ops",
             bio: "TBD",
-            image: ""
+            image: "https://cdn.bsky.app/img/avatar/plain/did:plc:tchvwsx3ez3c3lkm32pfksrs/bafkreiggug5hpcczy5274tvjfsffbncreqhuthujuimnlrj7e2pabuhzrq@jpeg"
         },
         {
             name: "Sagittarius A",
             role: "Art Director",
             bio: "Concept artist who paints galaxies before breakfast. Creates our signature neo-cosmic aesthetic.",
-            image: "/team/nyx-orion.jpg"
+            image: "https://cdn.bsky.app/img/avatar/plain/did:plc:q3y5jgxz6p7tx5luqybtsafz/bafkreicmtke55h5qduokw2cu7yij7zpkdiajgh4xkmhsn3xx3b2dipifoe@jpeg"
         },
         {
-            name: "Tago",
+            name: "Tiago",
             role: "Audio Director",
             bio: "TBD",
             image: ""
