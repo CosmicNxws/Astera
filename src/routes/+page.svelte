@@ -1,29 +1,39 @@
 <script>
     const games = [
+
+    {
+            title: "Singularity",
+            description: "The universe is your all-you-can-eat buffet! Guide your black hole to consume planets while avoiding nasty anti-stars and Those pesky humans in this gravity-powered arcade style game.",
+            release: "82% Finished",
+            image: "/fileimages/singularity.png"
+        },
+
         {
             title: "Outpost Erebus",
             description: "Manage a remote mining station in the Kuiper Belt. Collect resources, expand your outpost, and survive while growing your profits.",
             release: "Early Development",
-            image: "/games/nebula-command.jpg"
+            image: "/fileimages/Erebus.png"
         },
+        
         {
             title: "Astera Blast",
             description: "The best Shoot'em up asteroid game",
-            release: "Early Development",
-            image: "/games/exo-pilgrim.jpg"
+            release: "Early Planning",
+            image: "/fileimages/asterablast.png"
         },
+        
         {
             title: "MARIS",
             description: "As MARIS-OS, an AI aboard Ares Station, you uncover a conspiricy. Manage the station, make choices, and decide who—or what—you'll become.",
-            release: "Early Development",
-            image: "/games/quantum-drift.jpg"
+            release: "Early Planning",
+            image: "/fileimages/no.png"
         }
     ];
 </script>
 
 <svelte:head>
-    <title>Astera Interactive | Pioneering the Future of Space Gaming</title>
-    <meta name="description" content="Astera Interactive creates immersive space exploration and futuristic gaming experiences that push the boundaries of imagination." />
+    <title>Astera Interactive</title>
+    <meta name="description" content="Creating super cool Space games " />
 </svelte:head>
 
 <div class="page-container">

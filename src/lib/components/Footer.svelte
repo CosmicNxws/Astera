@@ -26,10 +26,11 @@
 
               <div class="link-group">
                   <h4>CONNECT</h4>
-                  <a href="https://twitter.com/asterainteractive">Twitter</a>
-                  <a href="https://discord.gg/astera">Discord</a>
-                  <a href="https://youtube.com/asterainteractive">YouTube</a>
-                  <a href="mailto:contact@asterainteractive.com">Email</a>
+                  <a href="https://bsky.app/profile/officialastera.bsky.social">Bluesky</a>
+                  <a href="https://www.instagram.com/official_astera/">Instagram</a>
+                  <a href="https://x.com/officialastera">Twitter / X</a>
+                  <a href="https://www.tiktok.com/@officialastera?enable_tiktok_webview=true">Tiktok</a>
+                  <a href="https://www.youtube.com/@officialastera">YouTube</a>
               </div>
           </div>
       </div>

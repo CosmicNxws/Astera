@@ -1,22 +1,32 @@
 <script>
     const games = [
+
+    {
+            title: "Singularity",
+            description: "The universe is your all-you-can-eat buffet! Guide your black hole to consume planets while avoiding nasty anti-stars and Those pesky humans in this gravity-powered arcade style game.",
+            release: "82% Finished",
+            image: "/fileimages/singularity.png"
+        },
+
         {
             title: "Outpost Erebus",
             description: "Manage a remote mining station in the Kuiper Belt. Collect resources, expand your outpost, and survive while growing your profits.",
             release: "Early Development",
-            image: "https://cdn.discordapp.com/attachments/1360640014769197056/1361427300947591381/image.png?ex=67feb77a&is=67fd65fa&hm=6c55989e78b386f596ad55db3f4852209fcab6f6c2685f1f99228e1aa0f5f083&"
+            image: "/fileimages/Erebus.png"
         },
+        
         {
             title: "Astera Blast",
             description: "The best Shoot'em up asteroid game",
-            release: "Early Development",
-            image: "/games/exo-pilgrim.jpg"
+            release: "Early Planning",
+            image: "/fileimages/asterablast.png"
         },
+        
         {
             title: "MARIS",
             description: "As MARIS-OS, an AI aboard Ares Station, you uncover a conspiricy. Manage the station, make choices, and decide who—or what—you'll become.",
-            release: "Early Development",
-            image: "/games/quantum-drift.jpg"
+            release: "Early Planning",
+            image: "/fileimages/no.png"
         }
     ];
 </script>
